@@ -15,7 +15,7 @@ def PrintTime(start):
         print("Time: {0} s".format(time.time() - start))
         
 def PrintHelp():
-    print("print --shuffle [train_size_percent=0.6] for shuffle data and get train dataset with size = len(data) * train_size_percent. Other samples will become a test dataset")
+    print("print --shuffle [train_size_percent=0.6] for shuffling data and get train dataset with size = len(data) * train_size_percent. Other samples will become a test dataset")
     print("then script will make project, launch it: fit on trainig set and predict on testing set and then compare predictions with real classes")
 
 
